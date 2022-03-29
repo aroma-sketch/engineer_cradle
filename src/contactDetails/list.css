@@ -1,0 +1,21 @@
+.list-container {
+  font-size: 17px;
+  margin: 150px 150px;
+  display: flex;
+  justify-content: center;
+}
+
+td,
+th {
+  padding: 5px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  height: 40px;
+}
+th {
+  background-color: rgb(224, 104, 83);
+  color: white;
+}
+tr:hover {
+  background-color: rgb(221, 141, 178);
+}

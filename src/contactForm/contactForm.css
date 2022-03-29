@@ -1,0 +1,47 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  background: rgb(255, 255, 255);
+  padding: 10px;
+}
+.form-body {
+  background: rgb(252, 244, 244);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 900px;
+  width: 433px;
+  padding: 0px 15px 0px 15px;
+  border-radius: 0.5rem;
+  
+}
+.check-box {
+  display: flex;
+  flex-flow: row;
+  margin-top: 5px;
+  font-weight: 300;
+}
+.drop-down-check-box-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.btn {
+  margin-top: 80px;
+  height: 50px;
+  font-size: 19px;
+  color: white;
+  background-color: rgb(233, 119, 66);
+}
+.paragraph-error {
+  color: red;
+  padding-top: 0px;
+  padding-bottom: -20px;
+  height: 9px;
+  font-size: smaller;
+  display: flex;
+  margin-left: 7px;
+}

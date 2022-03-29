@@ -1,0 +1,73 @@
+.footer-container {
+  background-color: rgb(38, 106, 241);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 70px;
+}
+.footer-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 7px;
+  margin-right: 90px;
+}
+.logo {
+  width: 200px;
+}
+.footer-info {
+  display: flex;
+  flex-flow: row;
+}
+.name-EC {
+  margin: 0px;
+}
+
+.EC-section-paragraph {
+  margin: 0px;
+}
+.version {
+  margin: 0px;
+}
+
+.version-paragraph {
+  margin: 0px;
+}
+.status-section {
+  margin-right: 40px;
+}
+
+.status-icon {
+  display: flex;
+  flex-flow: row;
+  margin: 17px;
+}
+
+.status-paragraph {
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+}
+.name-EC {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name-EC-paragraph {
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+}
+.version-section-paragraph {
+  margin: 0px;
+  color: white;
+  margin-bottom: 3px;
+}
+.company-name {
+  margin: 0px;
+}
+h5 {
+  margin: 0px;
+  font-size: 18px;
+}
